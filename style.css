@@ -139,20 +139,19 @@ body{
     background-image: url("./images/stock.jpg");
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding: 2rem;
     flex-wrap: wrap;
 }
 
 .blue-background{
     display: flex;
-    margin-left: auto;
     background-color: #D5DEE5;
     align-items: center;
     justify-content: center;
-    width: 800px;
+    width: 600px;
     height: 300px;
     border-radius: 10px;
-    margin-left: 2rem;
 }
 
 .text{
@@ -161,10 +160,9 @@ body{
 }
 
 .orange-background{
-    width: 400px;
+    width: 300px;
     height: 300px;
     background-color: #ffc868;
-    margin-left: 10rem;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
     position: relative;
@@ -178,7 +176,7 @@ body{
 }
 
 .orange-background img{
-    width: 400px;
+    width: 300px;
     height: 300px;
     position: absolute;
     border-radius: 10px;
